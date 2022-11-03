@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@drawable/registerbg">
+
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+    android:visibility="gone"
+
+    ></ProgressBar>
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="345dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:hint="Username"
+        android:textColorHint="@color/black">
+
+    </Button>
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="400dp"
+
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rounded_button"
+        android:text="LOGIN" />
+
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+
+android:backgroundTint="#0000"
+        android:layout_marginTop="580dp"
+
+        android:text="Register"
+        android:layout_marginLeft="25dp"/>
+
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="220dp"
+
+        android:backgroundTint="#0000"
+        android:layout_marginTop="580dp"
+        android:text="Forgot password?" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/banner" />
+
+</android.widget.RelativeLayout>

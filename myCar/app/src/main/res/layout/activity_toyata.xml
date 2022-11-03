@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Guess the car model"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"></TextView>
+
+
+    <Button
+        android:id="@+id/input1"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:fontFamily="sans-serif"
+        android:hint="Enter your guess"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white">
+
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/black"
+        android:text="Submit"
+        android:id="@+id/checkInput"></Button>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="469dp"
+        android:layout_height="355dp"
+        android:layout_marginTop="50dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/toyota_1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="1dp"
+        android:layout_marginLeft="8dp"
+        android:text="Round 1"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/text_view"
+     android:textSize="24sp"
+     android:textStyle="bold"
+
+     android:layout_marginTop="550dp"
+     android:layout_centerHorizontal="true"
+     android:gravity="center"
+     android:drawableTop="@drawable/ic_baseline_timer_24"></TextView>
+
+
+
+
+</RelativeLayout>
