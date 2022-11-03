@@ -16,6 +16,7 @@ public class toyata extends AppCompatActivity {
 TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+         getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toyata);
 
